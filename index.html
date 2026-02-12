@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divyam - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-btn" data-theme-btn>
+      <ion-icon name="moon-outline"></ion-icon>
+    </button>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Divyam Gangera" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Gangera Divyam Bharatbhai">Divyam Gangera</h1>
+
+          <p class="title">Computer Engineering Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:divyamqwe@gmail.com" class="contact-link">divyamqwe@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919824618375" class="contact-link">+91 9824618375</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-12-09">December 09, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Rajkot, Gujarat, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Computer Engineering student currently pursuing a B.Tech degree at Atmiya University, Rajkot.
+            I have a strong passion for computer programming and web development, with a particular focus on e-commerce
+            website development.
+            I have independently designed and developed multiple online stores, which are showcased in my resume and
+            portfolio..
+          </p>
+
+          <p>
+            I enjoy building practical projects that solve real-world problems and help people in their day-to-day
+            lives.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Field of Interests</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="laptop-outline"
+                  style="font-size: 30px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Technical & Management</h4>
+
+                <p class="service-item-text">
+                  Interest in technical and management fields.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="full stack developer icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Development</h4>
+
+                <p class="service-item-text">
+                  End-to-end web application development using modern front-end and back-end
+                  technologies, including responsive UI, scalable APIs, database management,
+                  and performance optimization.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="shopify developer icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Shopify Development</h4>
+
+                <p class="service-item-text">
+                  Professional Shopify store development, customization, and optimization,
+                  including theme design, app integration, and performance enhancement.
+                </p>
+              </div>
+
+            </li>
+
+
+
+
+          </ul>
+
+        </section>
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Amit Desai</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    “KStyles.in has become my favorite online store! What sets it apart is the attention to detail in
+                    both products and user experience. I love how easy it is to filter items and see recommendations
+                    based on my interests. The quality of everything I’ve ordered so far has exceeded my expectations,
+                    and deliveries always arrive on time. Their return and exchange process was smooth when I needed it
+                    — the team handled it professionally and without delay. I’m really happy with my experience and will
+                    continue to shop here!”
+
+                    — Amit Desai
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rina Patel</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    “I’ve been using Crownstones.in for a few months now, and I’m genuinely impressed with the quality
+                    and variety of products they offer. The website layout is clean and easy to navigate, making it
+                    simple to find exactly what I need. From browsing to checkout, the entire experience is smooth and
+                    hassle-free. I also appreciate the detailed product descriptions and clear images — they helped me
+                    make informed decisions every time. Customer support has been responsive and friendly, resolving my
+                    queries quickly. I highly recommend Crownstones.in to anyone looking for trustworthy products and
+                    great service!”
+
+                    — Rina Patel
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Neha Sharma</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    “The Rajkot Sathi app is an excellent platform for connecting with local services and businesses in
+                    Rajkot. The interface is intuitive, and the search feature helps me find exactly what I’m looking
+                    for within seconds. I especially like the verified reviews and ratings section — it makes choosing
+                    service providers so much easier. The app runs smoothly, loads quickly, and has minimal glitches.
+                    It’s become my go-to app whenever I need recommendations for places, services, and events in the
+                    city. Truly a must-have for residents and visitors!”
+
+                    — Neha Sharma
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Vikram Mehta</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    “I’ve had a great experience with Crownstones.in, KStyles.in, and the Rajkot Sathi app alike. Each
+                    platform delivers outstanding service in its own category. Crownstones.in offers reliable products
+                    with detailed information that helps me shop with confidence. KStyles.in impresses with its trendy
+                    collection and fast delivery. The Rajkot Sathi app keeps me connected with all the best local
+                    businesses and deals around town. What they all share is excellent usability — easy to browse, quick
+                    to load, and packed with features that make life easier. I highly recommend all three!”
+
+                    — Vikram Mehta
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Rina Patel</h4>
+
+              <time datetime="2026-01-14">14 January, 2026</time>
+
+              <div data-modal-text>
+                <p>
+                  “I’ve been using Crownstones.in for a few months now, and I’m genuinely impressed with the quality and
+                  variety of products they offer. The website layout is clean and easy to navigate, making it simple to
+                  find exactly what I need. From browsing to checkout, the entire experience is smooth and hassle-free.
+                  I also appreciate the detailed product descriptions and clear images — they helped me make informed
+                  decisions every time. Customer support has been responsive and friendly, resolving my queries quickly.
+                  I highly recommend Crownstones.in to anyone looking for trustworthy products and great service!”
+
+                  — Rina Patel
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Atmiya University, Rajkot</h4>
+
+              <span>Bachelor of Technology (B.Tech) – Computer Engineering</span>
+
+              <p class="timeline-text">
+                Sem I: 8.43 CGPA<br>
+                Sem II: 7.78 CGPA<br>
+                Sem III: 9.05 CGPA<br>
+                Sem IV: 9.44 CGPA<br>
+                Sem V: 9.21 CGPA
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">K.K High School, Savarkundla</h4>
+
+              <span>Higher Secondary Certificate (H.S.C) (2023)</span>
+
+              <p class="timeline-text">
+                Percentage: 65.84%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Diwaliba High School, Pithvadi</h4>
+
+              <span>Secondary School Certificate (S.S.C) (2021)</span>
+
+              <p class="timeline-text">
+                Percentage: 83.00%
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Gas Detection System</h4>
+
+              <span>Team Size: 4 | Duration: 6 Months 20 Days</span>
+
+              <p class="timeline-text">
+                Descr: A gas leakage detection system designed for household safety. The system detects gas leakage and
+                triggers a buzzer alarm to alert residents.<br>
+                Role: Project team member responsible for development and implementation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Rajkot Sathi (Website)</h4>
+
+              <span>Team Size: 1 | Duration: 4 Months 15 Days</span>
+
+              <p class="timeline-text">
+                Decr: A web application developed to provide useful information about Rajkot city (PGs, colleges,
+                hospitals, etc.) and local service providers.<br>
+                Role: Designed and developed the complete web application independently.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">
+
+
+                <h4 class="h4 timeline-item-title"> Crownstones.in (Shopify E-commerce Website)</h4>
+
+              </h4>
+
+              <span>Team Size: 1 | Duration: 10 Days</span>
+
+              <p class="timeline-text">
+                <strong>Description:</strong> Developed a fully functional Shopify-based e-commerce website
+                for an online jewelry store, enabling customers to browse and purchase products seamlessly.
+                Integrated multiple third-party applications to enhance the overall customer buying experience,
+                improve usability, and optimize order fulfillment.<br><br>
+
+                <strong>Role:</strong> Solely responsible for designing, developing, and customizing the entire website.
+                Integrated dropshipping solutions and the Shiprocket application for efficient shipping and order
+                management.
+
+                <strong>Visit Site for Review:</strong>
+                <a href="https://crownstones.in" target="_blank" rel="noopener noreferrer">
+                  https://crownstones.in
+                </a>
+
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">
+                <h4 class="h4 timeline-item-title"> Ktyless.in (Shopify E-commerce Website)</h4>
+              </h4>
+
+              <span>Team Size: 1 | Duration: 6 Days</span>
+
+              <p class="timeline-text">
+                <strong>Description:</strong> Designed and developed a fully functional Shopify-based e-commerce website
+                for a Korean clothing store, offering a seamless online shopping experience.
+                The website was optimized for product browsing, secure checkout, and enhanced customer engagement
+                through the integration of multiple Shopify applications.<br><br>
+
+                <strong>Role:</strong> Independently handled the complete website design, customization, and
+                development.
+                Integrated dropshipping solutions and Shiprocket for efficient shipping, order tracking,
+                and smooth fulfillment operations.<br><br>
+
+                <strong>Visit Site for Review:</strong>
+                <a href="https://kstyles.in" target="_blank" rel="noopener noreferrer">
+                  https://kstyles.in
+                </a>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Shopify Devloper</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Fundamentals</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Application Development</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Basic Electronics & Circuit Design</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Computer Skills</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Communication Skills</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development" data-project-id="finance">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="CrownStones – Online Spiritual & Fashion Jewellery Store" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CrownStones Jewellery Store</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development" data-project-id="orizon">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Smart Car Rental Management System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"> Car Rental System</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-project-id="brawlhalla">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.jpg" alt="Rajkot Sathi" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Rajkot Sathi</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design" data-project-id="dsm">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="FreshMart" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">FreshMart</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design" data-project-id="metaspark">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.png" alt="Roommate Finder" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Roommate Finder</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development" data-project-id="summary">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="Notes Hub" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Notes Hub</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development"
+              data-project-id="task-manager">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="sahajanand resort" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sahajanand Resort</h3>
+
+                <p class="project-category">web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development" data-project-id="arrival">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="clean city" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CleanCity</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development" data-project-id="Inox">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-10.png" alt="inox" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Inox - movie ticket Booking</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development"
+              data-project-id="projectpilot">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-11.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Project pilot - freelancing platform</h3>
+
+                <p class="project-category">web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development" data-project-id="blood">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-12.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Blood Donor Network</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #project modal
+      -->
+
+      <div class="modal-container" data-project-modal-container>
+
+        <div class="overlay" data-project-overlay></div>
+
+        <section class="project-modal">
+
+          <button class="modal-close-btn" data-project-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="modal-content-wrapper">
+            <h4 class="h3 modal-title" data-project-modal-title>Project Name</h4>
+
+            <div class="modal-text" data-project-modal-text>
+              <p>Project description goes here.</p>
+            </div>
+
+            <div class="project-images-grid" data-project-images-grid>
+              <!-- Images will be dynamically added here -->
+            </div>
+          </div>
+
+        </section>
+
+      </div>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://learncodingfuture.blogspot.com/2026/02/top-programming-languages-2026.html" target="blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Blog</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 03, 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Top Programming Languages to Learn in 2026 for High-Paying Tech Jobs</h3>
+
+                  <p class="blog-text">
+                    Python , JavaScript , Java , Go (Golang) , Rust
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+               <a href="https://learncodingfuture.blogspot.com/2026/02/cybersecurity-roadmap-2026-from.html" target="blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.png" alt="Cybersecurity Roadmap 2026: From Beginner to Ethical Hacker" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Cybersecurity</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 03, 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Cybersecurity Roadmap 2026: From Beginner to Ethical Hacker</h3>
+
+                  <p class="blog-text">
+                    A comprehensive roadmap for aspiring cybersecurity professionals in 2026, covering essential skills,
+                    certifications, and career paths to become an ethical hacker.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://learncodingfuture.blogspot.com/2026/02/web-developer-roadmap-2026-skills-tools.html" target="blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.png" alt="Web Developer Roadmap 2026: Skills, Tools, and Projects to Learn" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 03, 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title"> Web Developer Roadmap 2026: Skills, Tools, and Projects to Learn</h3>
+
+                  <p class="blog-text">
+                    A detailed roadmap for aspiring web developers in 2026, outlining the essential skills, tools,
+                    and projects needed to succeed in the ever-evolving field of web development.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://learncodingfuture.blogspot.com/2026/02/data-science-vs-ai-vs-machine-learning.html" target="blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.png" alt="Data Science vs AI vs Machine Learning: Which Career Makes the Most Sense in 2026?" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Data Science</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 03, 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Data Science vs AI vs Machine Learning: Which Career Makes the Most Sense in 2026?</h3>
+
+                  <p class="blog-text">
+                    An in-depth comparison of careers in Data Science, Artificial Intelligence, and Machine Learning
+                    in 2026, helping professionals choose the right path based on industry trends and job prospects.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://learncodingfuture.blogspot.com/2026/02/best-ai-tools-for-coding-students-2026.html" target="blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.png" alt=" Best AI Tools for Coding Students in 2026 (Free & Paid)" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">AI Tools</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 03, 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title"> Best AI Tools for Coding Students in 2026 (Free & Paid)</h3>
+
+                  <p class="blog-text">
+                    A curated list of the best AI tools available in 2026 for coding students, including both free and
+                    paid options to enhance learning and coding efficiency.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://learncodingfuture.blogspot.com/2026/02/best-free-platforms-to-learn-coding.html" target="blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.png" alt="Best Free Platforms to Learn Coding Online in 2026" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Coding</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 03, 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best Free Platforms to Learn Coding Online in 2026</h3>
+
+                  <p class="blog-text">
+                    An overview of the best free online platforms available in 2026 for learning coding, covering various
+                    programming languages and skill levels.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.274!2d70.8022!3d22.3039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c98ac70fc3e1%3A0x302b2c8c6c7d1c0!2sRajkot%2C%20Gujarat%2C%20India!5e0!3m2!1sen!2sin!4v1647608789441!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
